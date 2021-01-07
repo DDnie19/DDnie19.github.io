@@ -4,9 +4,9 @@ const ap = new APlayer({
     autoplay: false,
     audio: [
 	{
-        name: "海底",
+        name: "遇见",
         artist: '~~',
-        url: 'http://music.163.com/song/media/outer/url?id=1426649237.mp3',
+        url: 'http://dnie9.com/music/yj.mp3',
         }
      ]
 });
