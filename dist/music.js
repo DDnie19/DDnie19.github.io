@@ -6,7 +6,8 @@ const ap = new APlayer({
 	{
         name: "遇见",
         artist: '~~',
-        url: 'http://dnie9.com/music/yj.mp3',
+        url: 'https://dnie9.com/music/yj.mp3',
+	cover: 'https://dnie9.com/images/yj.jpg'
         }
      ]
 });
