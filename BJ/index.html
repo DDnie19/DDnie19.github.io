@@ -118,11 +118,12 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-<!-- 加入APlayer音乐播放器 -->
+	<!-- 加入APlayer音乐播放器 -->
+<!--
 <link rel="stylesheet" href="/dist/APlayer.min.css">
 <div id="aplayer"></div>
 <script type="text/javascript" src="/dist/APlayer.min.js"></script>
-<script type="text/javascript" src="/dist/music.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script> -->
 <div class="container use-motion"> 
 	<div class="headband"></div>
 
@@ -498,6 +499,21 @@ window.addEventListener('pjax:success', () => {
 
   
 <!-- calendar widget -->
+
+    <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-calendar/calendar.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-calendar/languages.min.js"></script>
+    <script>
+    $(function() {
+        $('#CloudCalendar').aCalendar('zh-CN',
+            $.extend(
+                '', {
+                    single:true,
+                    root:'/calendar/'
+                }
+            )
+        );
+    });
+    </script>
 
 
     </div>
