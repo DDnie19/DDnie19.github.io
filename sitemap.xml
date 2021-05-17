@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dnie9.com/oscp&cisp-pts.html</loc>
+    
+    <lastmod>2021-05-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dnie9.com/muweb.html</loc>
     
     <lastmod>2021-02-26</lastmod>
@@ -88,7 +95,7 @@
 
   <url>
     <loc>https://dnie9.com/</loc>
-    <lastmod>2021-02-26</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -98,21 +105,21 @@
   
   <url>
     <loc>https://dnie9.com/categories/%E9%9D%B6%E6%9C%BA/</loc>
-    <lastmod>2021-02-26</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://dnie9.com/categories/Python/</loc>
-    <lastmod>2021-02-26</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://dnie9.com/categories/%E5%85%B6%E5%AE%83/</loc>
-    <lastmod>2021-02-26</lastmod>
+    <lastmod>2021-05-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
